@@ -1,0 +1,12 @@
+{
+  "name": "time-to_answer",
+  "private": true,
+  "dependencies": {
+    "yarn": "^1.22.17"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JoaoMatheus98/Time_To_Answer.git",
+  "author": "Joao Matheus",
+  "license": "MIT"
+}
