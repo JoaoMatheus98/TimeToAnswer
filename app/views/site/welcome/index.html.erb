@@ -3,14 +3,12 @@
 
 <% if user_signed_in? %>
     <p>Usuário logado</p>
-    <strong><p><%= current_user.email %></p></strong>
 <% else %>
     <p>Usuário não está logado</p>
 <% end %>
 
 <% if admin_signed_in? %>
     <p>Admin logado</p>
-    <strong><p><%= current_user.email %></p></strong>
 <% else %>
     <p>Admin não está logado</p>
 <% end %>
